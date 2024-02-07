@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Starbucks Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        *{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+}
+
+header .left-side a img{
+  width: 80px;
+}
+
+header .right-side{
+  display: flex;
+}
+
+header .right-side .nav-link-wrapper a{
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.container{
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+.container .left-side{
+  text-align: center;
+}
+
+.container .left-side h1{
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.container .left-side h1 .green{
+  color: green;
+  font-family: 'Viga', serif;
+}
+
+.container .left-side p{
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.container .left-side a{
+  display: inline-block;
+  background: green;
+  padding: 12px 18px 12px 18px;
+  text-decoration: none;
+  border-radius: 25px;
+  color: white;
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.container .right-side{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container .right-side img{
+  max-width: 50%;
+}
+
+.container .right-side .box{
+  position: absolute;
+  display: grid;
+  right: 0%;
+  bottom: 0%;
+}
+
+.container .right-side .box img{
+  width: 25px;
+  margin: 10px;
+}
+
+.container .right-side .box img.facebook{
+  width: 18.5px;
+}
+
+.thumb{
+  display: flex;
+  margin-top: -60px;
+  justify-content: center;
+}
+
+.thumb a:hover{
+  margin-top: -15px;
+  transition: 0.2s;
+}
+
+.thumb img{
+  width: 54px;
+  margin: 20px;
+}
+
+@media (min-width: 1140px){
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  header .left-side a img{
+    width: 80px;
+  }
+
+  header .right-side{
+    display: flex;
+  }
+
+  header .right-side .nav-link-wrapper a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .container{
+    max-width: 90%;
+    margin: 50px auto;
+    display: flex;
+  }
+
+  .container .left-side{
+    text-align: left;
+    flex: 1;
+  }
+
+  .container .left-side h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+  }
+
+  .container .left-side h1 .green{
+    color: green;
+    font-family: 'Viga', serif;
+  }
+
+  .container .left-side p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .container .left-side a{
+    display: inline-block;
+    background: green;
+    padding: 12px 18px 12px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .container .right-side{
+    flex: 1;
+    text-align: center;
+  }
+
+  .container .right-side img{
+    width: 330px;
+    margin-left: 150px;
+    margin-top: -30px;
+  }
+
+  .container .right-side .box{
+    display: grid;
+    position: absolute;
+    bottom: 40%;
+    right: 1%;
+  }
+
+  .container .right-side .box img{
+    width: 25px;
+    margin: 10px;
+  }
+
+  .container .right-side .box img.facebook{
+    width: 18.5px;
+  }
+
+  .thumb{
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+  }
+
+  .thumb a:hover{
+    margin-top: -15px;
+    transition: 0.2s;
+  }
+
+  .thumb img{
+    width: 54px;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  header{
+    display: block;
+  }
+
+  header .left-side a img{
+    width: 80px;
+    margin: auto;
+    display: block;
+  }
+
+  header .right-side{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  header .right-side .nav-link-wrapper a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .container{
+    max-width: 80%;
+    margin: 50px auto;
+  }
+
+  .container .left-side{
+    text-align: center;
+  }
+
+  .container .left-side h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
+  .container .left-side h1 .green{
+    color: green;
+    font-family: 'Viga', serif;
+  }
+
+  .container .left-side p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+
+  .container .left-side a{
+    display: inline-block;
+    background: green;
+    padding: 12px 18px 12px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    margin-top: 15px;
+    font-size: 16.2px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 404px){
+  header{
+    display: block;
+  }
+
+  header .left-side a img{
+    width: 80px;
+    margin: auto;
+    display: block;
+  }
+
+  header .right-side{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  header .right-side .nav-link-wrapper a{
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  .container .right-side img{
+    width: 330px;
+    margin-top: -30px;
+  }
+  .container .right-side img{
+    max-width: 50%;
+  }
+
+  .container .right-side .box{
+    display: none;
+    position: absolute;
+    bottom: 250px;
+    right: 25px;
+  }
+
+  .container .right-side .box img{
+    width: 25px;
+    margin: 10px;
+  }
+
+  .container .right-side .box img.facebook{
+    width: 18.5px;
+  }
+
+  .thumb{
+    display: flex;
+    margin-top: -30px;
+    justify-content: center;
+  }
+
+  .thumb a:hover{
+    margin-top: -15px;
+    transition: 0.2s;
+  }
+
+  .thumb img{
+    width: 45px;
+    margin: 20px;
+  }
+}
+
+    </style>
+    <script>
+        function imgSlider(anything){
+  document.querySelector('.starbucks').src = anything;
+}
+    </script>
+  </head>
+  <body>
+
+    <header>
+      <div class="left-side">
+        <a href="#"> <img src="https://www.starbucks.in/assets/icon/logo.png" alt=""> </a>
+      </div>
+      <div class="right-side">
+        <div class="nav-link-wrapper"> <a href="">Home</a> </div>
+        <div class="nav-link-wrapper"> <a href="">Menu</a> </div>
+        <div class="nav-link-wrapper"> <a href="">What's New</a> </div>
+        <div class="nav-link-wrapper"> <a href="">Contact</a> </div>
+      </div>
+    </header>
+
+    <div class="container">
+
+      <div class="left-side">
+        <h1>It's not just Coffee <br>
+          It's <span class = "green"> Starbucks </span>
+        </h1>
+        <p>Expect More Than Coffee
+            We are passionate purveyors of coffee and everything else that goes with a rewarding coffeehouse experience. We also offer a selection of premium Tazo® teas, fine pastries, and other delectable treats to please the taste buds. And the music you hear in store is chosen for its artistry and appeal. People come to Starbucks to chat, meet up, or work.
+            We’re a neighborhood gathering place, a part of the daily routine – and we couldn’t be happier about it. Get to know us and you’ll see: we are so much more than what we brew</p>
+        <a href="">Learn More</a>
+      </div>
+      <div class="right-side">
+        <img src="https://i.pinimg.com/736x/f3/ec/47/f3ec47e064c8fdee6241fc826d14bb67.jpg" alt="" class = "starbucks">
+        <div class="box">
+          <a href="#"> <img class = "facebook" src="https://i.pinimg.com/originals/b6/99/1c/b6991c27a36077737c09a40cb31ecdef.jpg" alt=""></a>
+          <a href="#"> <img src="https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/600/Instagram_glyph_svg-512.png" alt=""></a>
+          <a href="#"> <img src="https://cdn-icons-png.freepik.com/256/59/59030.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="thumb">
+        <a href = "#bottom"><img src="https://i.pinimg.com/736x/f3/ec/47/f3ec47e064c8fdee6241fc826d14bb67.jpg" onclick="imgSlider('https://i.pinimg.com/736x/f3/ec/47/f3ec47e064c8fdee6241fc826d14bb67.jpg');"> </a>
+      <a href="#bottom"><img src="https://i.pinimg.com/736x/3a/13/6a/3a136a60aacaddeefda7ce709b9ec5e9.jpg" onclick="imgSlider('https://i.pinimg.com/736x/3a/13/6a/3a136a60aacaddeefda7ce709b9ec5e9.jpg');"> </a>
+      <a href="#bottom"><img src="https://www.flokq.com/blog/wp-content/uploads/2020/08/caramel-frappuccino.jpg" onclick="imgSlider('https://www.flokq.com/blog/wp-content/uploads/2020/08/caramel-frappuccino.jpg');"> </a>
+    </div>
+
+    <script src = "js/script.js">
+    </script>
+  </body>
+</html>
